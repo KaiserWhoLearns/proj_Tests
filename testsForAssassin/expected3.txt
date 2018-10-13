@@ -1,0 +1,11 @@
+    Don Knuth is stalking Alan Turing
+    Alan Turing is stalking Charles Babbage
+    Charles Babbage is stalking John von Neumann
+    John von Neumann is stalking Bill Gates
+    Bill Gates is stalking Alan Kay
+    Alan Kay is stalking Don Knuth
+    Tim Berners-Lee was killed by Bill Gates
+    Alonzo Church was killed by Alan Kay
+    Ada Lovelace was killed by Alan Turing
+    Grace Hopper was killed by John von Neumann
+    Linus Torvalds was killed by Alan Kay

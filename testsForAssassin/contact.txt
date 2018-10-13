@@ -1,0 +1,5 @@
+This is a user agreement:
+    The copyright belongs to Kaiser;
+    This test is only for CSE143;
+    Recommendations or bugs can be discussed by issues;
+Do you agree? (Y/n): 
