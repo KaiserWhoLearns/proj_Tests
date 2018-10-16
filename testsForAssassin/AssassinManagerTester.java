@@ -47,7 +47,8 @@ public class AssassinManagerTester {
 		System.out.println("This constructor will only test on Exception.");
 		System.out.println("Testing the constructor with list = []");
 		try{
-		AssassinManager manager = new AssassinManager(null);
+		List<String> test = new ArrayList<String>();
+		AssassinManager manager = new AssassinManager(test);
 		}
 		catch (IllegalArgumentException x) {
 			System.out.println("Pass!");
