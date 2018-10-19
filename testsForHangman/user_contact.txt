@@ -1,0 +1,8 @@
+This is a user contact.
+	The copyright belongs to Kaiser;
+    This test is only for CSE143;
+    Recommendations or bugs can be discussed by issues;
+    Please do not message me on any social media unless I have already added you before this assignment.
+    EMAIL ME or OPEN AN ISSUE if you have any questions or bugs.
+    Recommendations can be raised by social media.
+Do you agree? (Y/n): 
