@@ -34,7 +34,16 @@ public class HangmanTester {
 				readData("dictionary.txt", dict2);
 				testConstructor();
 			}
-			System.out.println("The record() is tested jointly with pattern(), so please make sure your pattern() is working appropriately. Do remember the exception case in pattern(), although we won't test it in the tester.");
+			System.out.println("\nDo you want to test the pattern()? Y/n :");
+			if (inputHelper()) {
+				boolean throwed = false;
+				try {
+					new HangmanManager(new ArrayList<String>(), 10, 10).pattern();
+				} catch (IllegalStateException ex) {
+					throwed = true;
+				}
+				System.out.println(throwed ? "Test passed." : "pattern() should throw IllegalStateException when the words is empty.");
+			}
 			System.out.println("\nDo you want to test the record()? Y/n :");
 			if(inputHelper()) {
 				dict1 = new HashSet<String>();
